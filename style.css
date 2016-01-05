@@ -41,7 +41,7 @@ body {
   font-size: 12px;
   font-weight: bold;
   height: 22px;
-  margin-left: 30px;
+  margin-left: 20px;
   border: 1px solid black;
 }
 .check {
@@ -80,8 +80,7 @@ body {
   font-weight: bold;
   letter-spacing: -1.5px;
   text-decoration: none;
-  margin-top: -900px;
-  
+  margin-top: -90px;
 }
 .corps {
   width: 988px;
@@ -104,10 +103,43 @@ body {
   position: absolute;
   width: 100px;
   margin-top: 20px;
-  margin-left: 600px;
+  margin-left: 580px;
+}
+.inscription > h1 {
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
 }
 .inscription > p {
   color: black;
-  font-size: 40px;
-  font-weight: bold;
+  width: 400px;
+  font-size: 20px;
+  margin-top: -18px;
+}
+.insc {
+  width: 500px;
+  height: 200px;
+}
+.prenom, .nom {
+  display: inline-block;
+  width: 185px;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 6px;
+  font-size: 18px;
+}
+.nom {
+  margin-left: 7px;
+}
+.mail{
+  display: inline-block;
+  width: 395px;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.dtn {
+  font-weight: normal;
 }
