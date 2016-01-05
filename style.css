@@ -1,0 +1,113 @@
+body {
+  width: 995px;
+}
+.bandeau {
+  position: relative;
+  background-color: #46629E;
+  width: 988px;
+  height: 90px;
+  margin-top: -8px;
+  margin-left: -8px;
+}
+.log, .mdp{
+  color: white;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.log{
+  margin-left: 560px;
+}
+.mdp {
+  margin-left: 20px;
+}
+.login, .m2p {
+  display: inline-block;
+  width: 140px;
+  height: 20px;
+  margin-top: 5px;
+  border: 1px solid black;
+}
+.login {
+  margin-left: 560px;
+}
+.m2p {
+  margin-left: 30px;
+}
+.submit{
+  display: inline-block;
+  background-color: #5873A8;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  height: 22px;
+  margin-left: 30px;
+  border: 1px solid black;
+}
+.check {
+  display: inline-block;
+  margin-left: 560px;
+}
+.session {
+  display:block;
+  position: relative;
+  width: 150px;
+  /*color: white;*/
+  font-size: 19px;
+/*  font-weight: bold;
+  letter-spacing: -1.5px;*/
+  text-decoration: none;
+  margin-top: -45px;
+  margin-left: 575px;
+}
+.lost {
+  display:block;
+  position: relative;
+  width: 150px;
+  /*color: white;*/
+  font-size: 19px;
+/*  font-weight: bold;
+  letter-spacing: -1.5px;*/
+  margin-top: -45px;
+  margin-left: 740px;
+}
+.titre {
+  display:block;
+  position: relative;
+  width: 100px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: -1.5px;
+  text-decoration: none;
+  margin-top: -900px;
+  
+}
+.corps {
+  width: 988px;
+  height: 700px;
+  margin-top: -16px;
+  margin-left: -8px;
+  background-color: #E4E7F1;
+}
+.p1 {
+  display: block;
+  position: absolute;
+  width: 440px;
+  margin-top: 60px;
+}
+.p1 > p {
+  font-size: 24px;
+}
+.inscription {
+  display: block;
+  position: absolute;
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 600px;
+}
+.inscription > p {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+}
